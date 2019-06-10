@@ -12,7 +12,7 @@ User.destroy_all
 
 zach = User.create(username: "Zach", email:'zach@zach.zach', password: 'passw0rd')
 
-Subscription.create(title: 'Netflix', url: 'www.netflix.com', username: 'zachpardee', password: 'pass', cost: 8.00, paydate:'6/1/2019', autopay: true, user_id: zach.id)
-Subscription.create(title: 'Blizzard', url: 'www.blizzard.com', username: 'zachpardee', password: 'pass', cost: 8.00, paydate:'6/1/2019', autopay: false, user_id: zach.id)
-Subscription.create(title: 'Twitch', url: 'www.twitch.tv', username: 'zachpardee', password: 'pass', cost: 8.00, paydate:'6/1/2019', autopay: true, user_id: zach.id)
+Subscription.create(title: 'Netflix', url: 'www.netflix.com', username: 'zachpardee', password: 'pass', cost: 8.00, paydate:'1/15/2019', autopay: true, user_id: zach.id)
+Subscription.create(title: 'Blizzard', url: 'www.blizzard.com', username: 'zachpardee', password: 'pass', cost: 8.00, paydate:'2/11/2019', autopay: false, user_id: zach.id)
+Subscription.create(title: 'Twitch', url: 'www.twitch.tv', username: 'zachpardee', password: 'pass', cost: 8.00, paydate:'3/3/2019', autopay: true, user_id: zach.id)
 
