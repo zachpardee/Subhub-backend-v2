@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2019_06_07_155047) do
 
   create_table "subscriptions", force: :cascade do |t|
     t.string "title"
+    t.string "imageUrl"
     t.string "url"
     t.string "username"
     t.string "password"
